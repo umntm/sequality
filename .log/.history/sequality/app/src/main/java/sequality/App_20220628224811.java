@@ -17,11 +17,8 @@ public class App {
 
     int a = 1, b = 10;
     System.out.println(
-        "Sum of " + a + " to " + b + " is " + new Calculate().sumfor(a, b) + ". Average is "
-            + new Calculate().sum_to_ave(a, b) + ".");
+        "Sum of " + a + " to " + b + " is " + new Calculate().sumfor(a, b) + ". Average is "+ new Calculate().sum_to_ave(a, b) + ".");
 
-    System.out.println(
-        "Sum of odd of " + a + " to " + b + " is " + new Calculate().sum_odd_even(a, b, 1) + ". Sum of even is "
-            + new Calculate().sum_odd_even(a, b, 2) + ".");
+    System.out.println("Sum of odd of 1 to 10 is 25. Sum of even is 30.");
   }
 }

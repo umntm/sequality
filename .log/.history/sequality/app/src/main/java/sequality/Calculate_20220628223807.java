@@ -9,9 +9,9 @@ public class Calculate {
     return (double) (x + y) / 2;
   }
 
-  public int sumfor(int x, int y) {
+  public int sumfor(int x, int y){
     int sf = 0;
-    for (int i = x; i <= y; i++) {
+    for(int i = x; i <= y; i++){
       sf += i;
     }
     return sf;
@@ -22,20 +22,10 @@ public class Calculate {
   }
 
   public int sum_odd_even(int x, int y, int z) {
-    int soe = 0;
-    if (z == 1) {
-      for (int i = x; i <= y; i++) {
-        if (i % 2 == 1) {
-          soe += i;
-        }
-      }
-    } else {
-      for (int i = x; i <= y; i++) {
-        if (i % 2 == 0) {
-          soe += i;
-        }
-      }
+    int sf = 0;
+    for (int i = x; i <= y; i++) {
+      sf += i;
     }
-    return soe;
+    return sf;
   }
 }

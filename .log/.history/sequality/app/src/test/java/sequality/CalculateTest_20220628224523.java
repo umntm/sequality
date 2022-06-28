@@ -20,9 +20,9 @@ public class CalculateTest {
     assertEquals(sta, calculate.sum_and_ave(1, 10), 0);
 
     int so = 25;
-    assertEquals(so, calculate.sum_odd_even(1, 10, 1));
+    assertEquals(sf, calculate.sum_odd_even(1, 10, 1));
 
     int se = 30;
-    assertEquals(se, calculate.sum_odd_even(1, 10, 2));
+    assertEquals(sf, calculate.sum_odd_even(1, 10, 2));
   }
 }

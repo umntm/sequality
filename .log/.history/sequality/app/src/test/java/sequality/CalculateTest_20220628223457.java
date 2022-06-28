@@ -15,14 +15,5 @@ public class CalculateTest {
 
     int sf = 55;
     assertEquals(sf, calculate.sumfor(1, 10));
-
-    double sta = 5.5;
-    assertEquals(sta, calculate.sum_and_ave(1, 10), 0);
-
-    int so = 25;
-    assertEquals(so, calculate.sum_odd_even(1, 10, 1));
-
-    int se = 30;
-    assertEquals(se, calculate.sum_odd_even(1, 10, 2));
   }
 }

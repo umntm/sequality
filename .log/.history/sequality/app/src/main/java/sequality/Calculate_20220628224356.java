@@ -9,9 +9,9 @@ public class Calculate {
     return (double) (x + y) / 2;
   }
 
-  public int sumfor(int x, int y) {
+  public int sumfor(int x, int y){
     int sf = 0;
-    for (int i = x; i <= y; i++) {
+    for(int i = x; i <= y; i++){
       sf += i;
     }
     return sf;
@@ -31,7 +31,7 @@ public class Calculate {
       }
     } else {
       for (int i = x; i <= y; i++) {
-        if (i % 2 == 0) {
+        if (i % 2 == 1) {
           soe += i;
         }
       }

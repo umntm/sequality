@@ -29,7 +29,7 @@ public class Calculate {
           soe += i;
         }
       }
-    } else {
+    } else if(z == 2){
       for (int i = x; i <= y; i++) {
         if (i % 2 == 0) {
           soe += i;

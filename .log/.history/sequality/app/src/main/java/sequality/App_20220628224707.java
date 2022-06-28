@@ -19,9 +19,6 @@ public class App {
     System.out.println(
         "Sum of " + a + " to " + b + " is " + new Calculate().sumfor(a, b) + ". Average is "
             + new Calculate().sum_to_ave(a, b) + ".");
-
-    System.out.println(
-        "Sum of odd of " + a + " to " + b + " is " + new Calculate().sum_odd_even(a, b, 1) + ". Sum of even is "
-            + new Calculate().sum_odd_even(a, b, 2) + ".");
+        
   }
 }
